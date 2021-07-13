@@ -18,7 +18,7 @@ void main() {
   });
 
   testWidgets('Crash when null decoration', (WidgetTester tester) async {
-    expect(() => PinInputTextField(decoration: null), throwsAssertionError);
+    expect(() => PinInputTextField(), throwsAssertionError);
   });
 
   testWidgets('Get pin text', (WidgetTester tester) async {
